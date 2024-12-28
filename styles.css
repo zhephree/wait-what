@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'nexa-rust-handmade-condensed';
+    src: url('./fonts/NexaRustHandmade-Trial-Condensed.woff2') format('woff2'),
+        url('./fonts/NexaRustHandmade-Trial-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+    --green: #002015;
+    --gold: #F9BF38;
+    --gold-dark: hsla(42, 94%, 60%, 0.835);
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    background-color: var(--green);
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: var(--gold);
+    color: var(--green);
+    border-radius: 5px;
+    display: block;
+    padding-block: 0;
+
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    font-family: 'nexa-rust-slab-black';
+    height: 1.5rem;
+    text-align: center;
+    appearance: none;
+    border: none;
+    font-size: 1rem;
+    box-sizing: content-box;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--gold-dark);
+    }
+}
+
+input:is([type="text"], [type="email"]) {
+    height: 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    appearance: none;
+    border: none;
+    padding: 0.5rem 0.75rem;
+}
+
+mark {
+    background-color: transparent;
+    color: var(--gold);
+}
+
+header {
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-image: url('./images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+
+    img {
+        max-width: 500px;
+        width:100%;
+    }
+}
+
+section {
+    padding: 1rem 2rem;
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    
+
+    .section-wrap {
+        position: relative;
+    }
+
+
+    h1 {
+        color: var(--white);
+        font-size: 5rem;
+        border-bottom: 0.5rem solid var(--gold);
+        font-family: "nexa-rust-slab-black", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        line-height: 2rem;
+        /* padding-top: 2rem; */
+
+        &::first-line {
+            line-height: 6rem;
+        }
+    }
+
+    p {
+        font-family: 'nexa-rust-slab-black', sans-serif;
+        color: var(--white);
+        font-size: 2rem;
+    }
+
+
+
+    &#upcoming-dates {
+        #dates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 4rem;
+
+            .show {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+                width: fit-content;
+
+
+                .show-left {
+                    .show-date {
+                        font-family: 'nexa-rust-handmade-condensed', sans-serif;
+                        color: var(--white);
+                        font-size: 2.5rem;
+                        white-space: nowrap;
+                        /* margin-bottom: 1rem; */
+                    }
+
+                    .show-time {
+                        font-family: 'nexa-rust-handmade-condensed', sans-serif;
+                        color: var(--white);
+                        font-size: 1.75rem;
+                        white-space: nowrap;
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                .show-right {
+                    .show-venue {
+                        font-family: 'nexa-rust-handmade-condensed', sans-serif;
+                        font-size: 2.5rem;
+                        color: var(--gold);
+                    }
+                    .show-address {
+                        font-family: 'nexa-rust-handmade-condensed', sans-serif;
+                        font-size: 2rem;
+                        color: var(--white);
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+
+    &#about {
+        background-image: url('images/about.png');
+    }
+
+    &#photos {
+        margin-bottom: 5rem;
+
+        #photo-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+
+            figure {
+                margin: 0;
+            }
+        }
+    }
+
+    &#contact {
+        background-image: url('images/contact.png');
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            fieldset {
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                border: none;
+                padding-inline: 0;
+                margin-inline: 0;
+                justify-content: center;
+                margin-bottom: 4rem;
+            }
+        }
+
+        #socials {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+
+            .social-link {
+                display: flex;
+                width: 2rem;
+                height: 2rem;
+                flex-direction: column;
+                justify-content: center;
+
+                svg {
+                    path {
+                        fill: var(--white);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes move-bg {
+    from {background-position: 0% 50%;}
+    to {background-position: 100% 50%;}
+}
