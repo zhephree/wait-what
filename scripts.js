@@ -182,6 +182,7 @@ if ("content" in document.createElement("template")) {
         clone.querySelector('.thumbnail-link').href = `./images/photos/${photo.filename}`;
         clone.querySelector('.thumbnail-link').title = photo.title;
         clone.querySelector('.thumbnail-image').src = `./images/photos/thumbs/${photo.filename}`;
+        clone.querySelector('.thumbnail-image').alt = photo.title;
 
         grid.appendChild(clone);
     }

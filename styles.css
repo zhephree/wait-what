@@ -16,6 +16,11 @@
     --black: #000;
 }
 
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: var(--green);
     padding: 0;
@@ -64,10 +69,12 @@ header {
     height: 90vh;
     padding: 0;
     margin: 0;
-    background-image: url('./images/hero.png');
+    background-image: url('./images/hero.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    transform-style: preserve-3d;
     display: grid;
     place-content: center;
 
@@ -85,7 +92,8 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
+    transform-style: preserve-3d;
     
 
     .section-wrap {
@@ -106,12 +114,27 @@ section {
         &::first-line {
             line-height: 6rem;
         }
+
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;
+            line-height: 3rem;
+
+            &::first-line {
+                line-height: 3rem;
+            }
+        }
     }
 
     p {
         font-family: 'nexa-rust-slab-black', sans-serif;
         color: var(--white);
         font-size: 2rem;
+
+
+        @media screen and (max-width: 768px) {
+            font-size: 1.5rem;
+            
+        }
     }
 
 
@@ -166,7 +189,7 @@ section {
     }
 
     &#about {
-        background-image: url('images/about.png');
+        background-image: url('images/about.webp');
     }
 
     &#photos {
@@ -185,7 +208,7 @@ section {
     }
 
     &#contact {
-        background-image: url('images/contact.png');
+        background-image: url('images/contact.webp');
 
         form {
             display: flex;
@@ -229,3 +252,7 @@ section {
     from {background-position: 0% 50%;}
     to {background-position: 100% 50%;}
 }
+
+/* @keyframes parallax-effect {
+    to { transform: translateY(100px) }
+} */
