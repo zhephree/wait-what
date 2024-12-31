@@ -28,6 +28,11 @@ body {
     font-size: 16px;
 }
 
+[name="b_9e6fda08a37b987778bb504a4_28a9e7c5cf"] {
+    display: none;
+}
+
+
 .btn {
     background-color: var(--gold);
     color: var(--green);
