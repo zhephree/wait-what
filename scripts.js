@@ -1,15 +1,5 @@
 const shows = [
     {
-        date: "January 2",
-        time: "8pm",
-        url: "https://app.opendate.io/e/wait-what-at-sports-drink-january-show-january-02-2025-569023",
-        venue: {
-            name: "Sports Drink",
-            address: "1042 Toledano St.",
-            city: "New Orleans, LA"
-        }
-    },
-    {
         date: "February 6",
         time: "8pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-february-show-february-06-2025-569024",
