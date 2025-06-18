@@ -154,7 +154,14 @@ if ("content" in document.createElement("template")) {
 
         clone.querySelector('.show-date').textContent = show.date;
         clone.querySelector('.show-time').textContent = show.time;
-        clone.querySelector('.btn').href = show.url;
+        if(show.url && show.url.length > 0){
+            clone.querySelector('.btn').href = show.url;
+        }else{
+            clone.querySelector('.btn').href = '#';
+            clone.querySelector('.btn').innerText = 'Available Soon';
+            clone.querySelector('.btn').setAttribute('disabled', 'disabled');
+            clone.querySelector('.btn').onclick = (e) => false;
+        }
         clone.querySelector('.show-venue').textContent = show.venue.name;
         clone.querySelector('.show-street').textContent = show.venue.address;
         clone.querySelector('.show-city').textContent = show.venue.city;
