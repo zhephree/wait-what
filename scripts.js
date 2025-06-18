@@ -1,15 +1,5 @@
 const shows = [
     {
-        date: "June 5",
-        time: "8pm",
-        url: "https://app.opendate.io/e/wait-what-at-sports-drink-june-show-june-05-2025-569028",
-        venue: {
-            name: "Sports Drink",
-            address: "1042 Toledano St.",
-            city: "New Orleans, LA"
-        }
-    },
-    {
         date: "July 3",
         time: "8pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-july-show-july-03-2025-569029",
@@ -20,6 +10,15 @@ const shows = [
         }
     },
     {
+        date: "July 25",
+        time: "8pm",
+        venue: {
+            name: "Saint August Maison",
+            address: "153 Robert St.",
+            city: "Slidell, LA"
+        }
+    },
+    {
         date: "August 7",
         time: "8pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-august-show-august-07-2025-569030",
@@ -27,6 +26,16 @@ const shows = [
             name: "Sports Drink",
             address: "1042 Toledano St.",
             city: "New Orleans, LA"
+        }
+    },
+    {
+        date: "August 16",
+        time: "7:30pm",
+        url: "https://www.lafayettecomedy.com/events/waitwhat8-16",
+        venue: {
+            name: "Rally Cap Brewing",
+            address: "111212 Pennywood Ave.",
+            city: "Baton Rouge, LA"
         }
     },
     {
