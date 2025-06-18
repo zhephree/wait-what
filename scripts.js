@@ -34,7 +34,7 @@ const shows = [
         url: "https://www.lafayettecomedy.com/events/waitwhat8-16",
         venue: {
             name: "Rally Cap Brewing",
-            address: "111212 Pennywood Ave.",
+            address: "11212 Pennywood Ave.",
             city: "Baton Rouge, LA"
         }
     },
