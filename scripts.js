@@ -12,6 +12,7 @@ const shows = [
     {
         date: "July 25",
         time: "8pm",
+        url: "https://www.eventbrite.com/e/wait-what-the-stand-up-comedy-drinking-game-tickets-1442188698219?aff=oddtdtcreator",
         venue: {
             name: "Saint August Maison",
             address: "153 Robert St.",
