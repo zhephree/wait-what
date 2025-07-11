@@ -1,15 +1,5 @@
 const shows = [
     {
-        date: "July 3",
-        time: "8pm",
-        url: "https://app.opendate.io/e/wait-what-at-sports-drink-july-show-july-03-2025-569029",
-        venue: {
-            name: "Sports Drink",
-            address: "1042 Toledano St.",
-            city: "New Orleans, LA"
-        }
-    },
-    {
         date: "July 25",
         time: "8pm",
         url: "https://www.eventbrite.com/e/wait-what-the-stand-up-comedy-drinking-game-tickets-1442188698219?aff=oddtdtcreator",
