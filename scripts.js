@@ -1,17 +1,7 @@
 const shows = [
     {
-        date: "July 25",
-        time: "8pm",
-        url: "https://www.eventbrite.com/e/wait-what-the-stand-up-comedy-drinking-game-tickets-1442188698219?aff=oddtdtcreator",
-        venue: {
-            name: "Saint August Maison",
-            address: "153 Robert St.",
-            city: "Slidell, LA"
-        }
-    },
-    {
         date: "August 7",
-        time: "8pm",
+        time: "7pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-august-show-august-07-2025-569030",
         venue: {
             name: "Sports Drink",
@@ -31,7 +21,7 @@ const shows = [
     },
     {
         date: "September 4",
-        time: "8pm",
+        time: "7pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-september-show-september-04-2025-569031",
         venue: {
             name: "Sports Drink",
@@ -41,7 +31,7 @@ const shows = [
     },
     {
         date: "October 2",
-        time: "8pm",
+        time: "7pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-october-show-october-02-2025-569032",
         venue: {
             name: "Sports Drink",
@@ -51,7 +41,7 @@ const shows = [
     },
     {
         date: "November 6",
-        time: "8pm",
+        time: "7pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-november-show-november-06-2025-569033",
         venue: {
             name: "Sports Drink",
@@ -61,7 +51,7 @@ const shows = [
     },
     {
         date: "December 4",
-        time: "8pm",
+        time: "7pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-december-show-december-04-2025-569034",
         venue: {
             name: "Sports Drink",
