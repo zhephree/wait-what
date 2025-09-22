@@ -1,15 +1,5 @@
 const shows = [
     {
-        date: "September 4",
-        time: "7pm",
-        url: "https://app.opendate.io/e/wait-what-at-sports-drink-september-show-september-04-2025-569031",
-        venue: {
-            name: "Sports Drink",
-            address: "1042 Toledano St.",
-            city: "New Orleans, LA"
-        }
-    },
-    {
         date: "October 2",
         time: "7pm",
         url: "https://app.opendate.io/e/wait-what-at-sports-drink-october-show-october-02-2025-569032",
@@ -43,6 +33,30 @@ const shows = [
 
 const photos = [
     {
+        filename: "terence.jpg",
+        title: "Terence Delane at Sports Drink in New Orleans, LA"
+    },
+    {
+        filename: "lee.jpg",
+        title: "Lee Glass at Sports Drink in New Orleans, LA"
+    },
+    {
+        filename: "marcus.jpg",
+        title: "Marcus Bond at Sports Drink in New Orleans, LA"
+    },
+    {
+        filename: "jake.jpg",
+        title: "Jake COsden at Sports Drink in New Orleans, LA"
+    },
+    {
+        filename: "olivia.jpg",
+        title: "Olivia Spencer at Sports Drink in New Orleans, LA"
+    },
+    {
+        filename: "keeda.jpg",
+        title: "Keeda with a Q at Sports Drink in New Orleans, LA"
+    },
+    {
         filename: "benjamin.png",
         title: "Benjamin Hoffman at Chafunkta Brewery in Mandeville, LA"
     },
@@ -75,12 +89,12 @@ const photos = [
         title: "Samantha Bednars at Hi-Ho Lounge in New Orleans, LA"
     },
     {
-        filename: "taj.png",
-        title: "Taj Washington at Hi-Ho Lounge in New Orleans, LA"
+        filename: "taj.jpg",
+        title: "Taj Washington at Sports Drink in New Orleans, LA"
     },
     {
-        filename: "teddy.png",
-        title: "Teddy Patterson at Hi-Ho Lounge in New Orleans, LA"
+        filename: "teddy.jpg",
+        title: "Teddy Patterson at Sports Drink in New Orleans, LA"
     },
     {
         filename: "tedo.png",
